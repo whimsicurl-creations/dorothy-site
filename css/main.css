@@ -6,3 +6,59 @@
     Blue: #2087B3;
     Heading Font: 'Patua One', cursive;
     Paragraph & Nav Font: 'Montserrat', sans-serif; */
+
+html {
+    background: #FDFDFD;
+}
+
+#logo img {
+    max-width: 50px;
+}
+
+.portfolio-item figure {
+    position: relative;
+    width: 30%;
+}
+.portfolio-item figure img {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.portfolio-item figcaption {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 97%;
+    border-radius: 10px;
+    opacity: 0.8;
+    font-family: 'Patua One', cursive;
+    font-size: 22px;
+    color: #FDFDFD;
+    text-align: center;
+    width: 100%;
+    top: 0;
+}
+.portfolio-item figure:hover figcaption {
+    display: flex;
+}
+.accent-one img {
+    border: solid 3px #FFE93B;
+}
+.accent-one figcaption {
+    background: #FFE93B;
+    color: #3E4C52;
+}
+.accent-two img {
+    border: solid 3px #2087B3;
+}
+.accent-two figcaption {
+    background: #2087B3;
+}
+.accent-three img {
+    border: solid 3px #FF2093;
+}
+.accent-three figcaption {
+    background: #FF2093;
+}
