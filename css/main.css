@@ -40,6 +40,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin-bottom: 25px;
+    z-index: 10;
 }
 nav ul li {
     margin: -25px 5px 15px;
@@ -71,6 +72,14 @@ header {
     border: none;
 }
 
+/* ===== SPACERS ===== */
+#spacer-one img {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    margin-top: -50px;
+}
+
 /* ===== PORTFOLIO ===== */
 #portfolio .wrapper {
     display: flex;
@@ -79,10 +88,8 @@ header {
     align-items: center;
     width: 90%;
     margin: 20px auto;
-    /* border: solid 1px green; */
 }
 .portfolio-item {
-    /* border: solid 1px purple; */
     width: 30%;
 }
 .portfolio-item figure {
@@ -126,4 +133,15 @@ figcaption.accent-one {
 }
 .three img {
     border: solid 3px #FF2093;
+}
+
+/* ===== ABOUT ===== */
+#about img {
+    border-radius: 50%;
+}
+
+
+/* ===== CONTACT ===== */
+#contact img {
+    border: none;
 }
