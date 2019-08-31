@@ -7,11 +7,54 @@
     Heading Font: 'Patua One', cursive;
     Paragraph & Nav Font: 'Montserrat', sans-serif; */
 
+    /* ===== GLOBAL STYLES ===== */
 * {
     margin: 0;
 }
 html {
     background: #FDFDFD;
+    font-family: 'Patua One', cursive;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+img {
+    border: solid 3px #FF2093;
+}
+.accent-one {
+    background: #FFE93B;
+}
+.accent-two {
+    background: #2087B3;
+}
+.accent-three {
+    background: #FF2093;
+}
+
+/* ===== NAVIGATION ===== */
+nav ul {
+    position: fixed;
+    top: 0;
+    right: 5px;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 25px;
+}
+nav ul li {
+    margin: -25px 5px 15px;
+    padding: 30px 10px 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+#portfolio-nav:hover, #about-nav:hover, #contact-nav:hover {
+    transform: translateY(25px);
+}
+nav ul li a {
+    padding: 30px 10px 10px;
+    text-decoration: none;
+    color: #3E4C52;
 }
 
 /* ===== HEADER ===== */
@@ -24,6 +67,7 @@ header {
 }
 #logo img {
     max-width: 50px;
+    border: none;
 }
 
 /* ===== PORTFOLIO ===== */
@@ -33,7 +77,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    margin: 0 auto;
+    margin: 20px auto;
     /* border: solid 1px green; */
 }
 .portfolio-item {
@@ -54,6 +98,7 @@ header {
     display: none;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
     position: absolute;
     width: 100%;
     height: 98%;
@@ -66,25 +111,18 @@ header {
     width: 100%;
     top: 0;
 }
+figcaption.accent-one {
+    color: #3E4C52;
+}
 .portfolio-item figure:hover figcaption {
     display: flex;
 }
-.accent-one img {
+.one img {
     border: solid 3px #FFE93B;
 }
-.accent-one figcaption {
-    background: #FFE93B;
-    color: #3E4C52;
-}
-.accent-two img {
+.two img {
     border: solid 3px #2087B3;
 }
-.accent-two figcaption {
-    background: #2087B3;
-}
-.accent-three img {
+.three img {
     border: solid 3px #FF2093;
-}
-.accent-three figcaption {
-    background: #FF2093;
 }
