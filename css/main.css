@@ -47,9 +47,10 @@ nav ul li {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     cursor: pointer;
+    transition: all ease 0.2s;
 }
 #portfolio-nav:hover, #about-nav:hover, #contact-nav:hover {
-    transform: translateY(25px);
+    transform: translateY(24px);
 }
 nav ul li a {
     padding: 30px 10px 10px;
