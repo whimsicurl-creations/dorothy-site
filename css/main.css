@@ -15,6 +15,9 @@ html {
     background: #FDFDFD;
     font-family: 'Patua One', cursive;
 }
+body {
+    font-size: 18px;
+}
 p {
     font-family: 'Montserrat', sans-serif;
 }
@@ -67,13 +70,37 @@ header {
     background-size: cover;
     height: 100vh;
 }
+#logo {
+    background-image: url('../img/Logo-bg-shape.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: solid 1px purple;
+    /* max-width: 400px; */
+}
+#logo a {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #3E4C52;
+    font-size: 0.75em;
+}
 #logo img {
-    max-width: 50px;
+    max-width: 15%;
     border: none;
 }
 
 /* ===== SPACERS ===== */
-#spacer-one img {
+.spacer img {
     width: 100%;
     border: none;
     background-color: transparent;
@@ -136,12 +163,17 @@ figcaption.accent-one {
 }
 
 /* ===== ABOUT ===== */
+#about {
+    background: #3E4C52;
+    border: solid 2px orange;
+    padding: 50px;
+}
 #about img {
     border-radius: 50%;
 }
 
 
 /* ===== CONTACT ===== */
-#contact img {
+#contact .content-wrapper img {
     border: none;
 }
