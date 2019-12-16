@@ -71,31 +71,16 @@ header {
     height: 100vh;
 }
 #logo {
-    background-image: url('../img/Logo-bg-shape.png');
-    background-repeat: no-repeat;
-    background-size: contain;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    border: solid 1px purple;
-    /* max-width: 400px; */
 }
 #logo a {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: center;
-    width: 95%;
-    margin: 0 auto;
-    text-decoration: none;
-    color: #3E4C52;
-    font-size: 0.75em;
+    width: 98%;
+    margin: 10px auto;
 }
 #logo img {
-    max-width: 15%;
+    max-width: 100%;
     border: none;
 }
 
