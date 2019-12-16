@@ -89,7 +89,7 @@ header {
     width: 100%;
     border: none;
     background-color: transparent;
-    margin-top: -50px;
+    margin-top: -50%;
 }
 
 /* ===== PORTFOLIO ===== */
@@ -152,9 +152,13 @@ figcaption.accent-one {
     background: #3E4C52;
     border: solid 2px orange;
     padding: 50px;
+    margin-top: -1%;
 }
 #about img {
     border-radius: 50%;
+}
+#about p {
+    color: #FDFDFD;
 }
 
 
