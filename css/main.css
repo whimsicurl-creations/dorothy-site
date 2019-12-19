@@ -189,6 +189,44 @@ figcaption.accent-one {
 
 
 /* ===== CONTACT ===== */
+#contact .wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 2.5em auto 1.5em;
+}
+#contact .wrapper .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    line-height: 4.5em;
+    padding: 0 2em 0 4em;
+}
+#contact #contact-me-svg {
+    max-width: 12em;
+    align-self: center;
+    margin-bottom: 1.25em;
+}
 #contact .content-wrapper img {
     border: none;
+    max-width: 10em;
+    padding: 0 1em;
+}
+#contact .content-wrapper p {
+    display: flex;
+    align-items: center;
+    padding-left: 5em;
+}
+#contact .content-wrapper p:last-of-type {
+    margin-top: .5em;
+}
+#contact .content-wrapper .social-icon {
+    width: 2.5em;
+    display: flex;
+    /* padding: 0 1em; */
+    padding: 0 1em 0 0;
+}
+#contact .portfolio-item {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 5em;
 }
