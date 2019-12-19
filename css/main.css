@@ -91,6 +91,9 @@ header {
     background-color: transparent;
     margin-top: -50%;
 }
+#space-pink {
+    margin-top: 0;
+}
 
 /* ===== PORTFOLIO ===== */
 #portfolio .wrapper {
@@ -151,9 +154,28 @@ figcaption.accent-one {
 /* ===== ABOUT ===== */
 #about {
     background: #3E4C52;
-    /* border: solid 2px orange; */
     padding: 50px;
     margin-top: -1%;
+}
+#about .wrapper {
+    width: 80%;
+    margin: 4em auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+#about #about-img {
+    padding: 1em;
+}
+#about #about-img img {
+    max-width: 350px;
+    border: solid 8px #FF2093;
+}
+#about .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3em 4em;
 }
 #about img {
     border-radius: 50%;
