@@ -230,3 +230,14 @@ figcaption.accent-one {
     justify-content: flex-start;
     padding-right: 5em;
 }
+
+/* ===== FOOTER ===== */
+footer {
+    background: #3E4C52;
+    padding: 1.5em 0 1em;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 0.8em;
+}
