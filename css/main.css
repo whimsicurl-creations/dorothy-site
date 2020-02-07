@@ -270,3 +270,46 @@ footer p {
         padding-right: 2em;
     }
 }
+
+@media screen and (max-width: 768px) {
+    /* ===== PORTFOLIO ===== */
+    #portfolio .wrapper {
+        margin: 1.5em auto;
+        width: 90%;
+        justify-content: space-around;
+    }
+    .portfolio-item {
+        width: 40%;
+        margin: 1em auto 0;
+    }
+    .portfolio-item figcaption {
+        display: flex;
+        position: relative;
+        background: transparent;
+        color: #3E4C52;
+        font-size: 1em;
+        margin: 0.5em auto 0;
+    }
+
+    /* ===== ABOUT ===== */
+    #about .wrapper {
+        flex-direction: column;
+    }
+    #about #about-img {
+        justify-content: center;
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    /* ===== PORTFOLIO ===== */
+    #portfolio .wrapper {
+        flex-direction: column;
+    }
+    .portfolio-item {
+        width: 75%;
+    }
+    .portfolio-item figcaption {
+        font-size: 1.25em;
+    }
+}
