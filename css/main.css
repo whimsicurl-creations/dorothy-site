@@ -85,11 +85,16 @@ header {
 }
 
 /* ===== SPACERS ===== */
+.spacer {
+    /* border: solid 1px black; */
+    width: 100%;
+    margin-top: -10px;
+}
 .spacer img {
     width: 100%;
     border: none;
     background-color: transparent;
-    margin-top: -50%;
+    /* margin-top: -50%; */
 }
 #space-pink {
     margin-top: 0;
@@ -178,7 +183,7 @@ figcaption.accent-one {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0.5em 4em;
+    padding: 0.5em 1em 0.5em 4em;
 }
 #about .content-wrapper img {
     border: none;
@@ -295,13 +300,42 @@ footer p {
     #about .wrapper {
         flex-direction: column;
     }
+    #about .content-wrapper {
+        padding: 0.5em 1em;
+    }
     #about #about-img {
         justify-content: center;
         margin-bottom: 2em;
     }
+    #about .wrapper .content-wrapper img {
+        margin: 1em auto;
+    }
+    
+    /* ===== CONTACT ===== */
+    #contact .wrapper {
+        flex-direction: column;
+    }
+    #contact .portfolio-item {
+        padding: 0;
+    }
+    #contact .wrapper .content-wrapper {
+        width: 60%;
+        margin: 0 auto;
+    }
+    #contact .wrapper .content-wrapper p img {
+        padding-left: 5px;
+        max-width: 35%;
+    }
+    #contact .wrapper .content-wrapper p a img {
+        padding: 0 10px 0 0;
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 460px) {
+    nav {
+        display: none;
+    }
     /* ===== PORTFOLIO ===== */
     #portfolio .wrapper {
         flex-direction: column;
@@ -311,5 +345,10 @@ footer p {
     }
     .portfolio-item figcaption {
         font-size: 1.25em;
+    }
+
+    /* ===== CONTACT ===== */
+    #contact .wrapper .content-wrapper {
+        width: 100%;
     }
 }
