@@ -173,12 +173,14 @@ figcaption.accent-one {
 }
 .overlay .overlay-inner {
     background: #FDFDFD;
-    width: 75%;
+    width: 700px;
     padding: 20px;
+    border-radius: 15px;
 }
 .overlay img {
     border: none;
     width: 100%;
+    border-radius: 10px;
 }
 .close {
     background: none;
@@ -187,6 +189,7 @@ figcaption.accent-one {
     font-size: 1.2rem;
     color: #3E4C52;
     border: none;
+    margin-bottom: 20px;
 }
 
 /* ===== ABOUT ===== */
