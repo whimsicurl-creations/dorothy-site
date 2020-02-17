@@ -142,6 +142,9 @@ header {
 figcaption.accent-one {
     color: #3E4C52;
 }
+.portfolio-item:hover {
+    cursor: pointer;
+}
 .portfolio-item figure:hover figcaption {
     display: flex;
 }
@@ -173,7 +176,9 @@ figcaption.accent-one {
 }
 .overlay .overlay-inner {
     background: #FDFDFD;
-    width: 700px;
+    box-sizing: border-box;
+    width: 850px;
+    max-width: 100vw;
     padding: 20px;
     border-radius: 15px;
 }
@@ -190,6 +195,9 @@ figcaption.accent-one {
     color: #3E4C52;
     border: none;
     margin-bottom: 20px;
+}
+.close:hover {
+    cursor: pointer;
 }
 
 /* ===== ABOUT ===== */
