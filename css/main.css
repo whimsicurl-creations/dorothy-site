@@ -86,7 +86,6 @@ header {
 
 /* ===== SPACERS ===== */
 .spacer {
-    /* border: solid 1px black; */
     width: 100%;
     margin-top: -10px;
 }
@@ -154,6 +153,40 @@ figcaption.accent-one {
 }
 .three img {
     border: solid 3px #FF2093;
+}
+
+/* ===== PORTFOLIO OVERLAY ===== */
+.overlay {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    z-index: 15;
+}
+.overlay.open {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.overlay .overlay-inner {
+    background: #FDFDFD;
+    width: 75%;
+    padding: 20px;
+}
+.overlay img {
+    border: none;
+    width: 100%;
+}
+.close {
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #3E4C52;
+    border: none;
 }
 
 /* ===== ABOUT ===== */
