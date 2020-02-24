@@ -23,7 +23,7 @@
 }
 html {
     background: var(--ltgray);
-    font-family: var(--bodytext);
+    font-family: var(--heading);
 }
 body {
     font-size: 18px;
@@ -45,6 +45,11 @@ img {
 }
 
 /* ===== NAVIGATION ===== */
+#collapse-nav,
+#nav-slideout {
+    display: none;
+}
+
 nav ul {
     position: fixed;
     top: 0;
@@ -330,6 +335,15 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
+    /* ===== NAVIGATION ===== */
+    #desktop-nav {
+        display: none;
+    }
+
+    #collapse-nav {
+        display: block;
+    }
+
     /* ===== PORTFOLIO ===== */
     #portfolio .wrapper {
         margin: 1.5em auto;

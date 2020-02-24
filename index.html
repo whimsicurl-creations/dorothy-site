@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Patua+One&display=swap" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="img/favicon.png">
+    <script src="https://kit.fontawesome.com/f8f76b2390.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -19,11 +20,22 @@
                 </a>
             </div>
             <nav>
-                <ul>
+                <ul id="desktop-nav">
                     <li id="portfolio-nav" class="accent-one"><a href="#portfolio">Portfolio</a></li>
                     <li id="about-nav" class="accent-two"><a href="#about">About</a></li>
                     <li id="contact-nav" class="accent-three"><a href="#contact">Contact</a></li>
                 </ul>
+                <ul id="collapse-nav">
+                    <a href="#" id="slideout-toggle"><li>Menu</li></a>
+                </ul>
+                <div id="nav-slideout" class="offscreen">
+                    <ul id="slideout-menu">
+                        <li><a href="#" id="slideout-close"><i class="fa fa-times" aria-hidden="true"></i></a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
