@@ -95,7 +95,7 @@ header {
     margin: 10px auto;
 }
 #logo img {
-    max-width: 100%;
+    max-width: 15em;
     border: none;
 }
 
